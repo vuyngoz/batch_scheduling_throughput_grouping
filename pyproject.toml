@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vuyngoz-moearch_jd055"
+name = "vuyngoz-batch_scheduling_throughput_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出MoE 模型架构师·批处理调度与吞吐折中上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://vuyngoz.github.io"
-Repository = "https://github.com/vuyngoz/moearch_jd055"
-Issues = "https://github.com/vuyngoz/moearch_jd055/issues"
+Repository = "https://github.com/vuyngoz/batch_scheduling_throughput_grouping"
+Issues = "https://github.com/vuyngoz/batch_scheduling_throughput_grouping/issues"
 
 [project.scripts]
-moearch_jd055 = "moearch_jd055:main"
+batch_scheduling_throughput_grouping = "batch_scheduling_throughput_grouping:main"
 
 [tool.setuptools]
-py-modules = ["moearch_jd055"]
+py-modules = ["batch_scheduling_throughput_grouping"]
